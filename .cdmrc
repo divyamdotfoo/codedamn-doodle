@@ -1,0 +1,3 @@
+terminals: ['pnpm install && pnpm run dev -p 1337']
+tabs: ['README.md']
+playground-view: terminal-editor-browser
