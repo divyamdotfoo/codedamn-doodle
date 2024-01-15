@@ -1,3 +1,4 @@
+import { Birthday } from "@/components/birthday";
 import { Hello } from "@/components/hello";
 
 export default function Page() {
@@ -7,6 +8,7 @@ export default function Page() {
         Learn to build an online doodle room.
       </p>
       <Hello />
+      <Birthday />
     </div>
   );
 }

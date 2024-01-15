@@ -12,4 +12,10 @@ export const messageRouter = router({
       await new Promise((resolve) => setTimeout(resolve, 1000));
       return `hello ${input.name}, lets pull this off together. `;
     }),
+  birthday: publicProcedure
+    .input(z.object({ date: z.string() }))
+    .mutation(async ({ input }) => {
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      return `Your birthday is on ${input.date}`;
+    }),
 });
