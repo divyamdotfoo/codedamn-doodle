@@ -1,3 +1,10 @@
-terminals: ['pnpm install && pnpm run dev -p 1337']
-tabs: ['README.md']
+terminals: ["pnpm install && pnpm run dev -p 1337"]
+tabs:
+  [
+    "README.md",
+    "src/app/page.tsx",
+    "src/components/hello.tsx",
+    "src/components/birthday.tsx",
+    "src/server/routers/message.ts",
+  ]
 playground-view: terminal-editor-browser
