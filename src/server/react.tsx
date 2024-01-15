@@ -20,7 +20,7 @@ export function TRPCReactProvider(props: { children: React.ReactNode }) {
             (op.direction === "down" && op.result instanceof Error),
         }),
         unstable_httpBatchStreamLink({
-          url: "http://localhost:3001/api/trpc",
+          url: "http://localhost:1337/api/trpc",
           headers() {
             return {
               "x-trpc-source": "react",
